@@ -1,6 +1,6 @@
 # *Điều gì xảy ra khi trình duyệt của bạn truy cập vào một trang web ?*
 
-## *Cách truy cập của một trình duyệt:*  
+## *Cách thức truy cập của một trình duyệt:*  
 
 - Có một vài bước xảy ra cùng lúc khi bạn truy cập vào một trang web đến khi nó hiện lên màn hình:  
   1. Tra cứu DNS
