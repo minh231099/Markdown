@@ -27,7 +27,8 @@
 
 ### *Máy chủ phản hồi*
 ---  
-- Khi máy chủ nhận được yêu cầu, nó sẽ phản hồi lại, kết quả phản hồi sẽ phụ thuộc vào một số điều. Ví dụ: khi tệp tin không còn sẽ trả lại 404 (file not found),...  
+- Khi máy chủ nhận được yêu cầu, nó sẽ phản hồi lại, kết quả phản hồi sẽ phụ thuộc vào một vài vấn đề. 
+>*Ví dụ: khi tệp tin không còn sẽ trả lại 404 (file not found) error, 200 OK nghĩa là truy cập thành công, ...* 
 
 ### *Trình duyệt hiện thị trang*
 ---  
