@@ -19,7 +19,7 @@
   - Bộ nhớ cache định tuyến (Router cache)
   - Bộ nhớ cache ISP DNS (Internet Service Provider Domain Name Server cache)  
 
->*Việc tra cứu DNS trong máy chủ gốc (root server) không tốn nhiều thời gian nhưng sẽ nhanh hơn nếu nó được lưu trữ trong cache. Vì vậy, ta có thể cải thiện được việc tra cứu DNS bằng cách lưu trữ các ánh xạ trong bộ nhớ cache lâu hơn.*
+>*Việc tra cứu DNS trong máy chủ gốc (root server) không tốn nhiều thời gian nhưng sẽ nhanh hơn nếu nó được lưu trữ trong cache. Vì vậy, ta có thể cải thiện được việc tra cứu DNS bằng cách lưu trữ các ánh xạ trong bộ nhớ cache một cách lâu dài.*
 
 ### *Trình duyệt gửi yêu cầu*
 ---  
