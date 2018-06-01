@@ -12,14 +12,14 @@
 ### *Tra cứu DNS*
 ---  
 - Bước đầu tiên khi yêu cầu 1 trang web là **chuyển tên miền thành một địa chỉ IP**.  
-- Chúng ta có xu hướng vào một trang web nhiều lần, nên những địa chỉ IP của trang web sẽ được lưu lại trong bộ nhớ cache.  
+- Chúng ta có xu hướng vào một trang web nhiều lần, nên những địa chỉ IP của trang web sẽ được lưu lại trong bộ nhớ đệm (cache).  
 - Danh sách thiết bị lưu trữ bộ nhớ cache theo thứ tự được chọn:  
-  - Bộ nhớ cache của trình duyệt (Browser cache)  
-  - Bộ nhớ cache của hệ điều hành (Operating system cache)  
-  - Bộ nhớ cache định tuyến (Router cache)
-  - Bộ nhớ cache ISP DNS (Internet Service Provider Domain Name Server cache)  
+  - Bộ nhớ đệm của trình duyệt (Browser cache)  
+  - Bộ nhớ đệm của hệ điều hành (Operating system cache)  
+  - Bộ nhớ đệm định tuyến (Router cache)
+  - Bộ nhớ đệm ISP DNS (Internet Service Provider Domain Name Server cache)  
 
->*Việc tra cứu DNS trong máy chủ gốc (root server) không tốn nhiều thời gian nhưng sẽ nhanh hơn nếu nó được lưu trữ trong cache. Vì vậy, ta có thể cải thiện được việc tra cứu DNS bằng cách lưu trữ các ánh xạ trong bộ nhớ cache lâu hơn.*
+>*Việc tra cứu DNS trong máy chủ gốc (root server) không tốn nhiều thời gian nhưng sẽ nhanh hơn nếu nó được lưu trữ trong cache. Vì vậy, ta có thể cải thiện được việc tra cứu DNS bằng cách lưu trữ các ánh xạ trong bộ nhớ đệm lâu hơn.*
 
 ### *Trình duyệt gửi yêu cầu*
 ---  
