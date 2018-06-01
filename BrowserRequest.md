@@ -39,4 +39,5 @@
   - Chạy tổng thể để tính toán tương thích từng mắt cây (node).
   - Vẽ lại từng node lên màn hình.
 
+Tham khảo tai : [What Happens When Your Browser Requests a Web Page?](https://vanseodesign.com/web-design/browser-requests/)
 # END!
