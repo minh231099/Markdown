@@ -4,10 +4,10 @@
 
 - Có một vài bước xảy ra cùng lúc khi bạn truy cập vào một trang web đến khi nó hiện lên màn hình:  
   1. Tra cứu DNS
-  2. Gửi yêu cầu đến HTTP
-  3. Máy chủ phản hồi và gửi lại tệp HTTP yêu cầu
-  4. Trình duyệt thông dịch thành HTML
-  5. Trình duyệt gửi yêu cầu bổ sung trong các đối tượng được nhúng trong file HTML (các file CSS, ảnh, javascript, ...)
+  2. Gửi yêu cầu HTTP
+  3. Máy chủ phản hồi và gửi lại tệp yêu cầu
+  4. Thông dịch thành HTML
+  5. Gửi yêu cầu bổ sung trong các đối tượng được nhúng trong file HTML (các file CSS, ảnh, javascript, ...)
 
 ### *Tra cứu DNS*
 ---  
@@ -22,4 +22,5 @@
 >*Việc tra cứu DNS trong máy chủ gốc (root server) không tốn nhiều thời gian nhưng sẽ nhanh hơn nếu nó được lưu trữ trong cache. Vì vậy, ta có thể cải thiện được việc tra cứu DNS bằng cách lưu trữ các ánh xạ trong bộ nhớ cache lâu hơn.*
 
 ### *Trình duyệt gửi yêu cầu*
----
+---  
+- Sau khi tra cứu DNS xong, trình duyệt sẽ yêu cầu HTTP đến máy chủ thích hợp. Không bắt buộc phải là HTTP, còn có thể là HTPPS hoặc HTTP/2. Để yêu cầu một file cụ thể nào đó, thường là HTML.  
