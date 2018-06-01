@@ -3,11 +3,11 @@
 ## *Cách thức truy cập của một trình duyệt:*  
 
 - Có một vài bước xảy ra cùng lúc khi bạn truy cập vào một trang web đến khi nó hiện lên màn hình:  
-  1. Tra cứu DNS
-  2. Gửi truy cập HTTP
-  3. Máy chủ phản hồi và gửi lại tệp yêu cầu
-  4. Thông dịch thành HTML
-  5. Gửi yêu cầu bổ sung trong các đối tượng được nhúng trong file HTML (các file CSS, ảnh, javascript, ...)
+1. Tra cứu DNS
+2. Gửi truy cập HTTP
+3. Máy chủ phản hồi và gửi lại tệp yêu cầu
+4. Thông dịch thành HTML
+5. Gửi yêu cầu bổ sung trong các đối tượng được nhúng trong file HTML (các file CSS, ảnh, javascript, ...)
 
 ### *I. Tra cứu DNS*
 ---  
