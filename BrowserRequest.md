@@ -11,7 +11,7 @@
 
 ### *Tra cứu DNS*
 ---  
-- Bước đầu tiên khi yêu cầu 1 trang web là chuyển **tên miền thành một địa chỉ IP**.  
+- Bước đầu tiên khi yêu cầu 1 trang web là **chuyển tên miền thành một địa chỉ IP**.  
 - Chúng ta có xu hướng vào một trang web nhiều lần, nên những địa chỉ IP của trang web sẽ được lưu lại trong bộ nhớ cache.  
 - Danh sách thiết bị lưu trữ bộ nhớ cache theo thứ tự được chọn:  
   - Bộ nhớ cache của trình duyệt (Browser cache)  
