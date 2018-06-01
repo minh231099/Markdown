@@ -11,7 +11,7 @@
 
 ### *Tra cứu DNS*
 ---  
-- Bước đầu tiên khi yêu cầu 1 trang web là chuyển tên miền thành một địa chỉ IP.  
+- Bước đầu tiên khi yêu cầu 1 trang web là chuyển **tên miền thành một địa chỉ IP**.  
 - Chúng ta có xu hướng vào một trang web nhiều lần, nên những địa chỉ IP của trang web sẽ được lưu lại trong bộ nhớ cache.  
 - Danh sách thiết bị lưu trữ bộ nhớ cache theo thứ tự được chọn:  
   - Bộ nhớ cache của trình duyệt (Browser cache)  
@@ -23,7 +23,7 @@
 
 ### *Trình duyệt gửi yêu cầu*
 ---  
-- Sau khi tra cứu DNS xong, trình duyệt sẽ truy cập HTTP đến máy chủ thích hợp. Không bắt buộc phải là HTTP, còn có thể là HTPPS hoặc HTTP/2. Để yêu cầu một file cụ thể nào đó, thường là HTML.  
+- Sau khi tra cứu DNS xong, trình duyệt sẽ **truy cập HTTP đến máy chủ thích hợp**. Không bắt buộc phải là HTTP, còn có thể là HTPPS hoặc HTTP/2. Để yêu cầu một file cụ thể nào đó, thường là HTML.  
 
 ### *Máy chủ phản hồi*
 ---  
@@ -32,11 +32,11 @@
 
 ### *Trình duyệt hiện thị trang*
 ---  
-- Sau khi nhận được file HTML trình duyệt sẽ hiện thị trang, sau khi trải qua một vài bước được gọi là đường dẫn hiển thi:
+- Sau khi nhận được file HTML trình duyệt sẽ hiện thị trang, sau khi trải qua một vài bước được gọi là **đường dẫn hiển thi**:
   - Xử lý đánh dấu file HTML và xây dựng giao diện DOM (Dom tree).  
   - Xử lý đánh dấu CSS và xây dựng mô hình đối tượng CSS (CSSMD tree).
   - Kết hợp DOM và CSSMD thành một cây kết xuất.
   - Chạy tổng thể để tính toán tương thích từng mắt cây (node).
-  - Vẽ lại từng node lên màn hình
+  - Vẽ lại từng node lên màn hình.
 
 # END!
