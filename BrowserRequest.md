@@ -13,7 +13,7 @@
 ---  
 - Bước đầu tiên khi yêu cầu 1 trang web là **chuyển tên miền thành một địa chỉ IP**.  
 - Chúng ta có xu hướng vào một trang web nhiều lần, nên những địa chỉ IP của trang web sẽ được lưu lại trong bộ nhớ đệm (cache).  
-- Danh sách thiết bị lưu trữ bộ nhớ cache theo thứ tự được chọn:  
+- Danh sách thiết bị lưu trữ bộ nhớ đệm theo thứ tự được chọn:  
   - Bộ nhớ đệm của trình duyệt (Browser cache)  
   - Bộ nhớ đệm của hệ điều hành (Operating system cache)  
   - Bộ nhớ đệm định tuyến (Router cache)
